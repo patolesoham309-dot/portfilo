@@ -339,36 +339,54 @@ Responsive
 @media(max-width:992px){
 
 .hero{
-flex-direction:column-reverse;
-text-align:center;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    min-height:auto;
+    padding:90px 8% 30px;
+    gap:15px;
+}
+
+.hero-left{
+    margin-top:-30px;
 }
 
 .hero-left h1{
-font-size:45px;
+    font-size:40px;
 }
 
 .hero-left h2{
-font-size:26px;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.hero-left p{
+    margin-bottom:20px;
+}
+
+.hero-right{
+    margin-bottom:0;
 }
 
 .hero-right img{
-width:260px;
-height:260px;
+    width:220px;
+    height:220px;
 }
 
 .nav-links{
-display:none;
+    display:none;
 }
 
 .social-icons{
-justify-content:center;
+    justify-content:center;
 }
 
 .hero-buttons{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:15px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
 }
 
 }
